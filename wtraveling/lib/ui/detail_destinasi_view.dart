@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 class DetailDestinasi extends StatefulWidget {
+  
   List list;
   int index;
   DetailDestinasi({this.index, this.list});
