@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:wtraveling/ui/cari_view.dart';
 import 'package:wtraveling/ui/destinasi_view.dart';
 import 'package:wtraveling/ui/profile_view.dart';
+import 'package:wtraveling/ui/utama_view.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -12,7 +13,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int _seletedIndex = 0;
   final _layoutPage = [
-    // Home(),
+//    Home(),
     Destinasi(),
     Cari(),
     Profile(),
@@ -35,17 +36,18 @@ class _HomePageState extends State<HomePage> {
             // fixedColor: Colors.green,
             selectedItemColor: Colors.lightBlue,
             unselectedItemColor: Colors.black54,
-            
+  
         items: <BottomNavigationBarItem>[
         
           BottomNavigationBarItem(
             
-            icon: Icon(Icons.home,),
+            
+            icon: Icon(Icons.home, ),
             title: Text('Home'),
           ),
           
           BottomNavigationBarItem(
-            icon: Image.asset('assets/loupe.png', width: 29.0, height: 29.0,),
+            icon: Image.asset('assets/loupe(3).png', width: 30.0, height: 29.0,),
             title: Text('Cari'),
           ),
 

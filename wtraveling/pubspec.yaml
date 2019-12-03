@@ -25,6 +25,8 @@ dependencies:
   cupertino_icons: ^0.1.2
   color: any
   http: 0.12.0+2
+  division: ^0.8.5
+
 
 dev_dependencies:
   flutter_test:
@@ -48,7 +50,7 @@ flutter:
   #  - images/a_dot_ham.jpeg
    - assets/avatar.png
    - assets/house.png
-   - assets/loupe.png
+   - assets/loupe(3).png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -68,7 +70,7 @@ flutter:
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
-  #     fonts:
+  #     fonts:            
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700

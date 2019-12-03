@@ -14,7 +14,7 @@ class Destinasi extends StatefulWidget {
 class _DestinasiState extends State<Destinasi> {
   Future<List> getData() async {
     final response =
-        await http.get('http://192.168.1.100/codei/index.php/Destinasi/');
+        await http.get('https://jumbau.000webhostapp.com/index.php/destinasi/');
     return json.decode(response.body);
   }
 
@@ -24,8 +24,8 @@ class _DestinasiState extends State<Destinasi> {
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(40),
         child: AppBar(
-          title: Text("makan"),
-          backgroundColor: Colors.redAccent,
+          title: Text("WTraveling"),
+          backgroundColor: Colors.lightBlueAccent,
         ),
       ),
       body: FutureBuilder<List>(
@@ -55,7 +55,7 @@ class ItemList extends StatelessWidget {
       itemCount: list == null ? 0 : list.length,
       itemBuilder: (context, i) {
         return Container(
-          padding: const EdgeInsets.all(10),
+          padding: const EdgeInsets.all(6),
           child: GestureDetector(
             onTap: () => Navigator.of(context).push(MaterialPageRoute(
                 builder: (BuildContext context) =>
@@ -64,8 +64,8 @@ class ItemList extends StatelessWidget {
               child: ListTile(
                 title: Text("${list[i]['name']}"),
                 leading: Image.network("${list[i]['img']}",
-                    width: 50.0, height: 50.0),
-                subtitle: Text("${list[i]['diskeripsi']}"),
+                    width: 80.0, ),
+                subtitle: Text("${list[i]['lokasi']}",),
               ),
             ),
           ),
