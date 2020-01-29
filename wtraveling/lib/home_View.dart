@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:wtraveling/ui/cari_view.dart';
 import 'package:wtraveling/ui/destinasi_view.dart';
 import 'package:wtraveling/ui/profile_view.dart';
-import 'package:wtraveling/ui/utama_view.dart';
+// import 'package:wtraveling/ui/utama_view.dart';
 
 class HomePage extends StatefulWidget {
   @override
