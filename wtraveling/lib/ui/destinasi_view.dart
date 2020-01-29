@@ -24,8 +24,8 @@ class _DestinasiState extends State<Destinasi> {
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(40),
         child: AppBar(
-          title: Text("WTraveling"),
-          backgroundColor: Colors.lightBlueAccent,
+          title: Text("Jepara travelling"),
+          backgroundColor: Colors.green[300],
         ),
       ),
       body: FutureBuilder<List>(

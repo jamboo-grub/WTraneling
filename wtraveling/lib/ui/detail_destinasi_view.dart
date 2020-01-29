@@ -15,7 +15,7 @@ class _DetailDestinasiState extends State<DetailDestinasi> {
     return Scaffold(
       appBar: AppBar(
         title: Text("${widget.list[widget.index]['name']}"),
-        backgroundColor: Colors.lightBlueAccent,
+        backgroundColor: Colors.green[300],
       ),
       body: ListView(
       children: <Widget>[

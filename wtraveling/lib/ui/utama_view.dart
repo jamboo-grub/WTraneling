@@ -7,7 +7,7 @@ class Home extends StatelessWidget {
       appBar: PreferredSize(
           preferredSize: Size.fromHeight(40),
           child: AppBar(
-            title: Text("makan"),
+            title: Text("Jepara travelling"),
             backgroundColor: Colors.redAccent,
           ),),
       body: ListView(
